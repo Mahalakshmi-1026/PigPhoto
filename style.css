@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(212, 117, 117);
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+.emoji-face{
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid black;
+}
+.emoji-face1{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    border: 4px solid black;
+}
+.emoji-face2{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    border: 4px solid black;
+}
+.eye1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    top: 50px;
+    left: 45px;
+}
+.eye2{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    top: 50px;
+    right: 45px;
+}
+.mouth {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    border: 3px solid black;
+    top: 113px;
+    background-color: hotpink;
+}
+.mouth1 {
+    width: 20px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    right: 20px;
+}
+.mouth2 {
+    width: 20px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 20px;
+}
+.ear {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border: 4px solid black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.ear.left {
+    top: -20px;  
+    left: 20px; 
+}
+
+.ear.right {
+    top: -20px;  
+    right: 10px; 
+}
